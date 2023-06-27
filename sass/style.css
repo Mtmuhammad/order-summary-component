@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   background-image: url("../images/pattern-background-desktop.svg");
   background-size: contain;
-  background-color: #a8baf2;
+  background-color: #e0e8ff;
   background-repeat: no-repeat;
   padding: 20px;
 }
@@ -127,7 +127,7 @@ body {
   body {
     background: url(../images/pattern-background-mobile.svg);
     background-size: contain;
-    background-color: #a8baf2;
+    background-color: #e0e8ff;
     background-repeat: no-repeat;
   }
 
