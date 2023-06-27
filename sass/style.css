@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-color: #a8baf2;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.card {
+  height: 100%;
+  width: 450px;
+  text-align: center;
+  box-shadow: 0px 5px 75px -12px rgba(56, 41, 224, 0.1);
+}
+.card-img {
+  background: url("../images/illustration-hero.svg");
+  height: 220px;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.card-summary {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 0 0 15px 15px;
+  padding-bottom: 30px;
+}
+.card-title {
+  font-weight: 900;
+  color: #1f2f56;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.card-text {
+  color: #7280a7;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.card-plan {
+  background-color: #f5f7ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.card-plan a {
+  color: #3829e0;
+  font-weight: 700;
+  font-size: 15px;
+}
+.card-plan a:hover {
+  color: #9b98eb;
+}
+.card-plan_prices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-plan_prices img {
+  margin-right: 15px;
+}
+.card-plan_prices h2 {
+  font-size: 15px;
+  color: #1f2f56;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+.card-plan_prices p {
+  color: #7280a7;
+}
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-buttons button {
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.card-buttons_proceed {
+  background-color: #3829e0;
+  color: #fff;
+  margin-bottom: 10px;
+  box-shadow: 0px 13px 18px 5px #cdd4ea;
+}
+.card-buttons_proceed:hover {
+  background-color: #9b98eb;
+}
+.card-buttons_cancel {
+  background-color: transparent;
+  color: #7280a7;
+}
+.card-buttons_cancel:hover {
+  color: #1f2f56;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (max-width: 475px) {
+  body {
+    background: url(../images/pattern-background-mobile.svg);
+    background-size: contain;
+    background-color: #a8baf2;
+    background-repeat: no-repeat;
+  }
+
+  .card {
+    width: 350px;
+  }
+  .card-summary {
+    padding: 40px 30px;
+    padding-bottom: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
